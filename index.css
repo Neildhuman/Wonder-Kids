@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* navigation */
+.navi {
+    background-color: #9CE1FD !important;
+    position: relative !important;
+    z-index: 2 !important;
+}
+
+/* section landing */
+#landing {
+    background-color: #F6D1F6;
+    height: 80vh;
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.landing_txt {
+    width: 30rem;
+    font-size: 30px;
+    text-align: center;
+}
+
+#landing .container {
+    padding: 10px;
+    top: 13%;
+    position: absolute;
+    left: 7%;
+}
+
+.crayon {
+    position: absolute; /* Add this line */
+    top: -30%; /* Adjust as needed */
+    right: -1%; /* Adjust as needed to make 3/4 of the image visible */
+    transform: scale(0.87); /* Scale the image to 75% of its original size */
+}
+
+.baloon {
+    position: absolute; /* Add this line */
+    left: -3%;
+    transform: scale(0.75);
+}
+
+.baloon2 {
+    position: absolute; /* Add this line */
+    top: 65%;
+    left: 54%;
+    transform: scale(0.55);
+}
+
+.cloud1 {
+    position: absolute; /* Add this line */
+    left: -5%;
+    top: -25%;
+    transform: scale(0.36);
+}
+.cloud2 {
+    position: absolute; /* Add this line */
+    top: 50%;
+    left: 20%;
+    transform: scale(0.25);
+}
+.cloud3 {
+    position: absolute; /* Add this line */
+    top: 80%;
+    left: 60%;
+    transform: scale(0.45);
+}
+.cloud4 {
+    position: absolute; /* Add this line */
+    right: 0%;
+    bottom: 0%;
+    transform: scale(0.86);
+}
+.cloud5 {
+    position: absolute; /* Add this line */
+    top: 66%;
+    left: 1%;
+    transform: scale(0.67);
+}
+.cloud6 {
+    position: absolute; /* Add this line */
+    top: -35%;
+    left: 40%;
+    transform: scale(0.55);
+}
+
+#benefits {
+    background-color: #F6D1F6;
+    padding: 30px;
+}
+
+/* services */
+
+#services {
+    height: 80vh;
+}
+
+#services .image {
+    margin-top: 50px !important; 
+    padding-left: 100px !important;
+}
+
+#enrollment {
+    background-color: #F6D1F6;
+    display: grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 992px) {
+
+}
