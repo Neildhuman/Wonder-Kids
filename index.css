@@ -33,13 +33,6 @@
     left: 7%;
 }
 
-.crayon {
-    position: absolute; /* Add this line */
-    top: -30%; /* Adjust as needed */
-    right: -1%; /* Adjust as needed to make 3/4 of the image visible */
-    transform: scale(0.87); /* Scale the image to 75% of its original size */
-}
-
 .baloon {
     position: absolute; /* Add this line */
     left: -3%;
@@ -98,7 +91,7 @@
 /* services */
 
 #services {
-    height: 80vh;
+    height: 100vh;
 }
 
 #services .image {
@@ -117,6 +110,20 @@
 
 
 
+.landing_img img,
+.baloon,
+.baloon2,
+.cloud1,
+.cloud2,
+.cloud3,
+.cloud4,
+.cloud5,
+.cloud6 {
+    max-width: 100%;
+    height: auto;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
 
 
 
@@ -147,7 +154,114 @@
 
 
 
+@media (max-width: 992px) {
+    .landing_txt {
+        font-size: 24px;
+        width: 70%;
+    }
+    .baloon {
+        transform: scale(0.4);
+    }
+    .baloon2 {
+        transform: scale(0.3);
+    }
+    .cloud1 {
+        transform: scale(0.3);
+    }
+    .cloud2 {
+        transform: scale(0.2);
+    }
+    .cloud3 {
+        transform: scale(0.4);
+    }
+    .cloud4 {
+        transform: scale(0.7);
+    }
+    .cloud5 {
+        transform: scale(0.5);
+    }
+    .cloud6 {
+        transform: scale(0.4);
+    }
+}
 
-@media(max-width: 992px) {
+@media (max-width: 768px) {
+    #landing {
+        height: 60vh;
+    }
+    .landing_txt {
+        font-size: 20px;
+    }
+    .landing_img img {
+        transform: scale(0.5);
+    }
+    .baloon {
+        transform: scale(0.3);
+    }
+    .baloon2 {
+        display: none; /* Hide or simplify complex elements */
+    }
+    .cloud1,
+    .cloud2,
+    .cloud3,
+    .cloud4,
+    .cloud5,
+    .cloud6 {
+        display: none; /* Hide clouds on smaller screens or simplify if necessary */
+    }
+}
+
+/* @media (max-width: 479px) {
+    #landing .container {
+        transform: translateX(-50%);
+    }
+    .landing_img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .landing_txt {
+        font-size: 10px;
+    }
+    .landing_img img {
+        transform: scale(0.30);
+    }
+    .baloon {
+        transform: scale(0.2);
+    }
+} */
+
+@media (max-width: 479px) {
+    #landing {
+        height: 40vh;
+    }
+    #landing .container {
+        left: 0%;
+    }
+    .landing_img {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .landing_img img {
+        transform: scale(1);
+    }
+    .landing_txt {
+        font-size: 16px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    .baloon {
+        display: none;
+    }
+    .baloon2 {
+        display: none;
+    }
+    .cloud1,
+    .cloud2,
+    .cloud3,
+    .cloud4,
+    .cloud5,
+    .cloud6 {
+        display: none;
+    }
 
 }
