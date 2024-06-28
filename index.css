@@ -83,33 +83,6 @@
     transform: scale(0.55);
 }
 
-#benefits {
-    background-color: #F6D1F6;
-    padding: 30px;
-}
-
-/* services */
-
-#services {
-    height: 100vh;
-}
-
-#services .image {
-    margin-top: 50px !important; 
-    padding-left: 100px !important;
-}
-
-#enrollment {
-    background-color: #F6D1F6;
-    display: grid;
-}
-
-
-
-
-
-
-
 .landing_img img,
 .baloon,
 .baloon2,
@@ -123,6 +96,56 @@
     height: auto;
     overflow-clip-margin: content-box;
     overflow: clip;
+}
+
+#benefits {
+    background-color: #F6D1F6;
+    padding: 30px;
+}
+
+/* services */
+
+#services {
+    height: 120vh;
+    background-color: #F6D1F6;
+}
+
+#services .image {
+    margin-top: 50px !important; 
+    padding-left: 100px !important;
+}
+
+#enrollment {
+    background-color: #9CE1FD !important;
+    height: 100vh;
+    position: relative;
+}
+
+#enrollment h1 {
+    height: auto;
+    /* margin-top: 30px; */
+    padding-top: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+
+
+#contact_us {
+    height: 70.5vh;
+}
+
+.contact-details {
+    margin-top: 30px;
+}
+
+.contact-details ul {
+    list-style-type: none; /* Remove default bullets */
+    padding-left: 0; /* Remove default left padding */
+}
+
+.contact-details ul li::before {
+    content: "☑";
 }
 
 
